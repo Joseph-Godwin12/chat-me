@@ -1,24 +1,29 @@
 body {
+    display: block;
     color: #fff;
     background-color: #181818;
     overflow: auto;
+    margin: 0px 0px;
 }
 
 .header {
     background: #272626;
     border-bottom: 2px solid #181818;
-    box-shadow:  0px 0px 10px rgb(73, 71, 73); 
+    box-shadow:  0px 0px 10px rgb(73, 71, 73);
+    position: sticky;
+    top: 0;
+    padding: 0.1px; 
 }
 
 .header-text {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 .header-list {
     display: flex;
     list-style-type: none;
-    gap: 4rem;
-    font-size: 2.2rem;
+    gap: 6rem;
+    font-size: 1.9rem;
 }
 
 .header-list li Link{
@@ -68,3 +73,125 @@ img {
     color: #ccc;
     width: 90%;
 }
+
+.becky-img {
+    display: flex;
+    align-items: center;
+}
+
+.becky {
+    width: 50px;
+    height: 50px;
+    border: #181818;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.confidence-img {
+    display: flex;
+    align-items: center;
+}
+
+.confidence {
+    width: 50px;
+    height: 50px;
+    border: #181818;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.duru-img {
+    display: flex;
+    align-items: center;
+}
+
+.duru {
+    width: 50px;
+    height: 50px;
+    border: #181818;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.elder-img {
+    display: flex;
+    align-items: center;
+}
+
+
+.elder {
+    width: 50px;
+    height: 50px;
+    border: #181818;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.festus-img {
+    display: flex;
+    align-items: center;
+}
+
+.festus {
+    width: 50px;
+    height: 50px;
+    border: #181818;
+    border-radius: 50%;
+    margin: 8px; 
+}
+
+.grant-img {
+    display: flex;
+    align-items: center; 
+}
+
+.grant {
+    width: 50px;
+    height: 50px;
+    border: #181818;
+    border-radius: 50%;
+    margin: 8px;  
+}
+
+.obinna-img {
+    display: flex;
+    align-items: center;
+}
+
+.obinna {
+    width: 50px;
+    height: 50px;
+    border: #181818;
+    border-radius: 50%;
+    margin: 8px;  
+}
+
+.becky-link {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+/* .becky-link:hover {
+    background: #ccc;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

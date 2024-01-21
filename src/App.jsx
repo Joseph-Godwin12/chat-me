@@ -6,6 +6,7 @@ import Work from './Work.jsx'
 import Group from './Group.jsx'
 import Room from './Room.jsx'
 import Chat from './Chat.jsx'
+import Becky from './Becky.jsx'
 import {Route,Routes,RouterProvider,createBrowserRouter,createRoutesFromElements}from "react-router-dom"
 
 
@@ -15,6 +16,7 @@ export default function App(){
             <Route path='/chat' element={<Chat/>}/>
             <Route path='/room' element={<Room />}/>
             <Route path='/group' element={<Group />}/>
+            <Route path='/becky' element={<Becky />}/>
         </Route>
 
 
