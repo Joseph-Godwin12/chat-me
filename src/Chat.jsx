@@ -25,7 +25,6 @@ export default function Chat(){
             <strong>Sis Confidence</strong>
          </p>
     </div> 
-
     <div>
         <p className="duru-img">
             <img src={duru} alt="duru image" className="duru"/>
